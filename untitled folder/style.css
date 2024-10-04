@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Lato, sans-serif;
+  }
+  html,body{
+    background-color: #fff;
+  }
+  .logo{
+    margin-top: 2%;
+    width: 100px;
+    height: 100px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .jntu h1{
+    color: #053A63;
+    margin-top: 10px;
+    margin-bottom: 13px;
+  }
+  .res{
+    font-weight: 450;
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  .year{
+    margin-top: 43px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  p{
+    color: rgb(15, 14, 14);
+    font-weight: 400;
+  }
+  input{
+    margin-top: 44px;
+    letter-spacing: 7px;
+    border: none;
+    font-size: 27px;
+    outline: none;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 450px;
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  table {
+      font-family: Lato, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+  
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    th{
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    .header {
+      background-color: #636262;
+      font-weight: bold;
+    }
+    
+  .wrapper{
+      width: 80%;
+      margin: auto;
+  }
+  .ongs tr{
+    background-color: #fff;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-right: 16px;
+    position: fixed;
+    height: 40px;
+    bottom: 0; /* Positions the div at the bottom */
+    left: 0; /* Positions the div at the left edge */
+    width: 100%;
+    text-align: center; /* Centers the text inside the div */
+    /* box-shadow: 0 -2px 5px rgba(0,0,0,0.3); Optional: adds a shadow for better separation */
+    background-color: #fff;
+}
+    .footer h2{
+      color: #003278;
+    }
+  
+  .footer img{
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    align-self: center;
+    
+   
+  }
+  .tutionFeeForgotPasswordButton{
+    float: right;
+    margin-top: 5px;
+    margin-right: 1px;
+    border: none;
+    color: #ffffff;
+    background: #636262;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;	
+    }
+@media(max-width:983px){
+  .logo{
+    width: 200px;
+    height: 200px;
+    margin-top: 3%;
+  }
+  .jntu h1{
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 35px;
+  }
+  .jntu h3{
+    text-align: center;
+    width: 100%;
+  }
+  .jntu h2{
+    text-align: center;
+    width: 100%;
+  }
+  .jntu p{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.footer h2 a{
+  color: #003278;
+}
